@@ -1,0 +1,69 @@
+html {
+	font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+	html {
+		font-size: 1.2rem;
+	}
+}
+
+@include media-breakpoint-up(md) {
+	html {
+		font-size: 1.4rem;
+	}
+}
+
+@include media-breakpoint-up(lg) {
+	html {
+		font-size: 1.6rem;
+	}
+}
+h1, h6, h2{
+	color: white;
+	text-align: center;
+	font-family: 'Exo 2';
+}
+.logo{
+	width: 20%;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.image1{
+	width: 975px;
+	height: 548px;
+}
+.titulo{
+	color: black;
+}
+article{
+	text-align: center;
+}
+.rounded{
+	width: 40%;
+	height: auto;
+}
+.jumbotron{
+	border-style: inset;
+	border-width: 1px;
+	border-bottom: 1px;
+	background-color: #EDE8D9;
+}
+button{
+	font-family: 'Exo 2';
+}
+.table{
+	border: none;
+	border-color: none;
+	margin-top: 0em;
+
+}
+h4{
+	color: white;
+	font-family: 'Exo 2';
+}
+.mail{
+	color: blue;
+}
